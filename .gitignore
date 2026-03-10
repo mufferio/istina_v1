@@ -1,0 +1,55 @@
+# ── Python ─────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+pip-wheel-metadata/
+*.whl
+
+# ── Environment files ───────────────────────────
+.env
+.env.local
+.env.production
+.env.staging
+*.env
+
+# ── Node / Frontend ─────────────────────────────
+node_modules/
+dist/
+.next/
+out/
+.cache/
+*.tsbuildinfo
+
+# ── OS ──────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# ── IDE ─────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Testing / Coverage ──────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.lcov
+
+# ── Docker ──────────────────────────────────────
+*.log
+
+# ── Supabase ────────────────────────────────────
+supabase/.temp/
