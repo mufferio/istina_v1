@@ -1,0 +1,2 @@
+# Ignore runtime data files; keep the directory itself via .gitkeep
+*.jsonl
