@@ -1,0 +1,16 @@
+# Python dependencies for Istina CLI v0.
+#
+# Include:
+# - python-dotenv (load .env)
+# - feedparser (RSS parsing)
+# - requests or httpx (HTTP fetching)
+# - pydantic or dataclasses-json (optional but recommended for validation/serialization)
+# - pytest (tests)
+#
+# Keep versions pinned once stable for reproducible installs.
+
+python-dotenv
+feedparser
+requests
+httpx
+pytest
