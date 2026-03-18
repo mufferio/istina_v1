@@ -24,7 +24,7 @@ Please name your branches as:
 ### Examples:
 - `infra/m1/issue-1`
 - `feat/m3/issue-67`
-- `bug/m9/issue-325`
+- `bug/m9/issue-326`
 
 ---
 
