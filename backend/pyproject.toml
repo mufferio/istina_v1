@@ -1,0 +1,14 @@
+[project]
+name = "istina_v1"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "fastapi[standard]",
+    "pydantic-settings",
+    "httpx",
+    "python-dotenv"
+]
+
+[tool.fastapi]
+entrypoint = "app.main:app"
