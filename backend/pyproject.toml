@@ -12,3 +12,8 @@ dependencies = [
 
 [tool.fastapi]
 entrypoint = "app.main:app"
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I", "UP"]
+target-version = "py311"
